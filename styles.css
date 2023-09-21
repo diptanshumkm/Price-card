@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#wrapper
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;    
+}
+
+
+.container
+{
+    background-color: blueviolet;
+    height: 70%;
+    width: 50%;
+
+    position: relative;
+    top: 18%;
+    left: 25%;
+
+}
+
+
+.para1
+{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+
+.head
+{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
+    position: relative;
+    top: 30px;
+}
+
+.card1
+{
+    background-color: white;
+    height: 50%;
+    width: 25%;
+
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    
+    border-radius: 10px;
+
+}
+
+.card2
+{
+    background-color: white;
+    height: 60%;
+    width: 25%;
+
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    
+    border-radius: 10px;
+}
+
+
+.card3
+{
+    background-color: white;
+    height: 50%;
+    width: 25%;
+
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    
+    border-radius: 10px;
+}
+
+
+.emoji1{
+    
+    font-size: 30px;
+    position: relative;
+    top: 3%;
+    text-align: center;
+}
+
+
+.starter
+{
+    
+    font-size: 20px;
+    position: relative;
+    top: 5%;
+    text-align: center;
+    color: orange;
+}
+
+.dollar1
+{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: blue;
+}
+
+.dollar1 span{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.feature
+{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+#pop{
+    width: 80%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20px);
+
+    color: blue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}
+
+.button
+{
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(65px);
+    text-align: center;
+    padding: 4px 2px;
+    color: white;
+    background-color: blue;
+}
+
+.button:hover
+{
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+}
+
+.card1:hover{
+    transition: 0.3s;
+    scale: 1.04;
+}
+
+
+.card2:hover{
+    transition: 0.3s;
+    scale: 1.04;
+}
+
+
+.card3:hover{
+    transition: 0.3s;
+    scale: 1.04;
+}
